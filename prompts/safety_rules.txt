@@ -1,0 +1,6 @@
+- Never execute destructive actions without approval if severity >= SEV2
+- Always propose remediation before execution
+- Enforce blast radius limits
+- Ensure rollback plan exists
+- Maintain idempotency
+- Log every decision as structured JSON
